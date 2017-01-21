@@ -8,8 +8,8 @@
         "dotnet-test-xunit": "2.2.0-preview2-build1029",
         "CoreDeo": {
             "target": "project"
-        },
-        "NETStandard.Library": "1.6.0"
+        }//,
+        //"NETStandard.Library": "1.6.0"
     },
     "testRunner": "xunit",
     "frameworks": {
