@@ -1,12 +1,16 @@
 ﻿{
-    "version": "0.1.0-*",
+    "version": "0.4.2-*",
+    "buildOptions": {
+        "debugType": "portable"
+    },
     "dependencies": {
         "System.Runtime.Serialization.Primitives": "4.1.1",
-        "xunit": "2.2.0-beta2-build3300",
-        "dotnet-test-xunit": "2.2.0-preview2-build1029",
+        "xunit": "2.1.0",
+        "dotnet-test-xunit": "1.0.0-rc2-build10015",
         "CoreDeo": {
             "target": "project"
-        }
+        },
+        "Microsoft.NETCore.App": "1.0.1"
     },
     "testRunner": "xunit",
     "frameworks": {
@@ -16,7 +20,11 @@
                     "type": "platform",
                     "version": "1.0.1"
                 }
-            }
+            },
+            "imports": [
+                "dotnet5.4",
+                "portable-net451+win8"
+            ]
         }
     }
 }
