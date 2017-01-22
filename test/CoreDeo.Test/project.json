@@ -9,8 +9,8 @@
         "dotnet-test-xunit": "2.2.0-preview2-build1029",
         "CoreDeo": {
             "target": "project"
-        },
-        "Microsoft.NETCore.App": "1.0.1"
+        }
+	//,"Microsoft.NETCore.App": "1.0.1"
         //,"NETStandard.Library": "1.6.0"
     },
     "testRunner": "xunit",
