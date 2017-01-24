@@ -9,8 +9,7 @@ namespace CoreDeo.Sample
     {
         public static void Main(string[] args)
         {
-            var c = new Class1();
-            Console.WriteLine(c.IsWorking);
+            Console.WriteLine("hello world");
         }
     }
 }
